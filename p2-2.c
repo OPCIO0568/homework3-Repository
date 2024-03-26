@@ -6,6 +6,7 @@ int main()
 {
 
     int one[] = {0, 1, 2, 3, 4}; //int 배열 선언 밑 배열에 값을 넣어줌
+    printf("[----- [kimgunwoo] [2021041010] -----]");
     printf("one = %p\n", one); //one은 one[0]을 지정하는 포인터이기에 one[0]의 주소다.
     printf("&one = %p\n", &one); //one은 one[0]을 지정하는 포인터이자 본인이기에 one[0]의 주소다.
     printf("&one[0] = %p\n", &one[0]); //one[0]의 포인터 주소 출력

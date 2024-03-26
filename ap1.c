@@ -10,6 +10,7 @@ int main()
     list[0] = 1; //list 0번에 1을 넣는다
     list[1] = 100; //list 1번에 100을 넣는다
     *plist[0] = 200; //plist[0]의 할당 받은 메모리에 200이라는 정수값을 넣는다
+    printf("[----- [kimgunwoo] [2021041010] -----]");
     printf("list[0] = %d\n", list[0]); //list[0]안에든 1값을 출력한다
     printf("&list[0] = %p\n", &list[0]); //list[0]의 주소값을 출력한다
     printf("list = %p\n", list); // list는 list[0]을 가르키는 포인터라 list[0]의 주소값을 출력한다

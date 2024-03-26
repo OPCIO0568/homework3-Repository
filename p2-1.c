@@ -13,6 +13,7 @@
     for(i=0; i < MAX_SIZE; i++) //input[0~99]까지 1~99을 넣는다
         input[i] = i;
     /* for checking call by reference */
+    printf("[----- [kimgunwoo] [2021041010] -----]");
     printf("--------------------------------------\n");
     printf(" sum1(input, MAX_SIZE) \n");
     printf("--------------------------------------\n");
